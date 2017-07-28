@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Voluntarios"
+                   namespace="Voluntarios.Models">
+  <class name="Colaborador">
+    <id name="Id">
+      <generator class="identity" />
+    </id>
+    <property name="Id"/>
+    <property name="NomeCompleto"/>  
+    <property name="DataNascimento"/> 
+    <property name="Sexo"/>  
+    <property name="Docto_Cpf"/> 
+    <property name="TipoProfissionalId"/>     
+  </class>
+</hibernate-mapping>
